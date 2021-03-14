@@ -1,0 +1,15 @@
+
+.nav-bar {
+    margin-bottom: 2%;
+    color: white;
+    background-color: black;
+    flex-grow: unset;
+}
+
+.temp {
+    background-color: aqua;
+    color: white;
+    display: flex;
+    justify-content: right;
+}
+
