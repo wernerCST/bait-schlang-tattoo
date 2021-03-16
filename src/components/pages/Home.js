@@ -1,9 +1,13 @@
 import React from 'react'
-import '../../App.css';
+import './home.css';
+
 
 function home() {
     return (
         <>
+        <div className='home-container'>
+            <h1>Bait & Schlang Tattoo</h1>
+        </div>
         </>
     )
 }

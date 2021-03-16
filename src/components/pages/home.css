@@ -1,0 +1,21 @@
+.home-container {
+    background: url('../../images/shop-full.jpg') center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+
+  .home-container h1 {
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-size: 75px;
+    text-decoration-line: overline underline;
+    text-decoration-style: wavy;
+    text-underline-offset: 20px;
+  }

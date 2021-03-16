@@ -1,15 +1,18 @@
 
 .nav-bar {
     margin-bottom: 2%;
-    color: white;
     background-color: black;
     flex-grow: unset;
+    opacity: 0.75;
 }
 
-.temp {
-    background-color: aqua;
+.nav-bar a {
     color: white;
+}
+
+.nav-icons{
     display: flex;
     justify-content: right;
 }
+
 

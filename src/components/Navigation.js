@@ -1,5 +1,6 @@
 import React from 'react'
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import logo from '../images/logo.png'; 
 import './Navigation.css';
 
 function Navigation() {
@@ -7,9 +8,9 @@ function Navigation() {
         <>
             <Navbar collapseOnSelect fixed='top' expand='sm' className='nav-bar'>
                 <Container>
-                    <a href="/">Hidden brand</a>
+                    <img src={logo} alt="logo" height='35px' width='35px' />    
                     <Navbar.Toggle/>
-                    <Navbar.Collapse id='responsive-navbar-nav' className='temp'>
+                    <Navbar.Collapse id='responsive-navbar-nav' className='nav-icons'>
                         <Nav.Link href='/'>Home</Nav.Link>
                         <Nav.Link href='/'>Home</Nav.Link>
                         <Nav.Link href='/'>Home</Nav.Link>
